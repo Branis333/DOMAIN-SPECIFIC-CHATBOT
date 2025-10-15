@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.local
+
+# Models (too large for git)
+models/
+*.h5
+*.bin
+*.safetensors
+
+# Datasets
+Astro-QA/
+*.xlsx
+*.csv
+*.json
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Build
+dist/
+build/
+*.egg
+
+# Logs
+*.log
+logs/
+
+# Temporary
+*.tmp
+temp/
