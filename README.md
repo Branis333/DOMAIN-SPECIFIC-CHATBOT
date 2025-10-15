@@ -118,7 +118,7 @@ Bot: Explains hypertension and its basic characteristics
 - Name: Branis333
 - Project: Domain-Specific Chatbot (Medical)
 - Model Available: [Hugging Face Hub](https://huggingface.co/Branis333/symptom-gpt2-chatbot)
-
+- Model space: [Hugging Face spaces](https://huggingface.co/spaces/Branis333/symptom_gpt2)
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
