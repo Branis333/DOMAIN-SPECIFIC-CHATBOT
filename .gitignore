@@ -24,11 +24,6 @@ models/
 *.bin
 *.safetensors
 
-# Datasets
-Astro-QA/
-*.xlsx
-*.csv
-*.json
 
 # OS
 .DS_Store
