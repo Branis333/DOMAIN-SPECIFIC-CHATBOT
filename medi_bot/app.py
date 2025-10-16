@@ -84,11 +84,11 @@ chatbot = gr.ChatInterface(
     ),
     textbox=gr.Textbox(
         placeholder="Ask me about your symptoms or medical questions...",
-        container=False,
+        container=True,  # keep the input container visible so the send button renders
         scale=7
     ),
     title="🏥 Medical Symptom Chatbot",
-    description="Ask questions about symptoms, diseases, and medical conditions. This bot is trained on medical Q&A data. ⚠️ For informational purposes only - always consult healthcare professionals.",
+    description="Ask questions about symptoms, diseases, and medical conditions. This bot is trained on medical Q&A data. For informational purposes only - always consult healthcare professionals.",
     theme="soft",
     examples=[
         ["I have fever and cough. What could this be?"],
@@ -129,6 +129,7 @@ chatbot = gr.ChatInterface(
             info="Controls diversity of responses"
         ),
     ],
+    submit_btn="Send",
 )
 
 # Launch the app
